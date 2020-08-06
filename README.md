@@ -51,7 +51,7 @@ Note: you can skip SETUP step if you would like to use the same dataset, downloa
 # Train on Google Colab
 * open FaceMaskTrainModel file in your google drive with google colab and run code written one by one and make sure to change runtime type to GPU
 * at the end a zip file will be generated download it and copy new graph and paste it in the object detection folder
-* Copy python scripts model_webcam and model_image to object_detection folder, then change the scripts according to your data such as number of classes and name of model.
+* Copy python scripts model_webcam and model_image to object_detection folder, then change the scripts according to your data such as number of classes and name of the model you have used.
 * run model_webcam.py to detect objects using real-time webcam or model_image.py to detect objects on images
 
 i used and modified some of the files in Bengemon825/TF_Object_Detection2020 repository 
