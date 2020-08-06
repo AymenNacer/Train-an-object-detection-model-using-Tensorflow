@@ -7,7 +7,7 @@ in this repo i trained a model to detect face masks using Google Colab.
 # SETUP
 Note: you can skip SETUP step if would like to use the same dataset, download the output folder from : https://drive.google.com/drive/folders/1csS0kivfrfndQoEVTo2gCrqR4s19_Vq_?usp=sharing
 * First you need to setup your dataset and perform the annotations to the data using labelling.exe application, my data is already setup and available at mask_dataset
-* Download the repo from https://github.com/tensorflow/models and rename it to models, then create tensorflow1 directory in the C drive and move models inside tensorflow1 
+* Download the repo from https://github.com/tensorflow/models and rename it to models, then create tensorflow1(you can change the name but make sure you change it for later intructions) directory in the C drive and move models inside tensorflow1 
 * Choose the model you are going to use based on speed and accuracy you can check models at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md
 
 * I chose ssd_mobilenet_v1_coco
