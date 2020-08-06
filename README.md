@@ -47,11 +47,12 @@ Note: you can skip SETUP step if would like to use the same dataset, download th
 * Next go to https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0 and  download protoc-3.4.0-win32.zip
     * Extract the zip and open the bin folder. Move protoc.exe into the ‘research’ folder of the cloned repository 
 
-    * upload the models folder to Google Drive and put it in a new tensorflow folder.
+    * upload the models folder to your Google Drive and put it in a new tensorflow folder.
 # Train on Google Colab
-* run code written one by one and make sure to change runtime type to GPU
+* open FaceMaskTrainModel file in your google drive with google colab and run code written one by one and make sure to change runtime type to GPU
 * at the end a zip file will be generated download it and copy new graph and paste it in the object detection folder
 * Copy python scripts model_webcam and model_image, then change the scripts according to your data such as number of classes and name of model.
+* run model_webcam.py to detect objects using real-time webcam or model_image.py to detect objects on images
 
 i used and modified some of the files in Bengemon825/TF_Object_Detection2020 repository 
 
