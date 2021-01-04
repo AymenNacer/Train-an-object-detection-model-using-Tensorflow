@@ -1,5 +1,5 @@
 # Train an object detection model using Tensorflow
-in this repo i trained a model to detect face masks using Google Colab.
+(Smart Methods Internship) in this repo i trained a model to detect face masks using Google Colab.
 
 ![aaaaaa](https://user-images.githubusercontent.com/60849096/89512719-49d9aa00-d7dc-11ea-9fd2-7f7ee5ec49b7.png)
 
